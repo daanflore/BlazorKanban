@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorKanban.Server", "Server\BlazorKanban.Server.csproj", "{E9963379-650F-49FC-9DCA-FD0447ED67BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorKanban.Server", "Server\BlazorKanban.Server.csproj", "{E9963379-650F-49FC-9DCA-FD0447ED67BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorKanban.Client", "Client\BlazorKanban.Client.csproj", "{6D7ADC48-724C-48DB-BC54-764F018CBD6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorKanban.Client", "Client\BlazorKanban.Client.csproj", "{6D7ADC48-724C-48DB-BC54-764F018CBD6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorKanban.Shared", "Shared\BlazorKanban.Shared.csproj", "{E9DA5A0F-98B0-49CA-A95B-4956E334F34D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorKanban.Shared", "Shared\BlazorKanban.Shared.csproj", "{E9DA5A0F-98B0-49CA-A95B-4956E334F34D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorKanban.Server.UnitTests", "Server\Tests\BlazorKanban.Server.UnitTests\BlazorKanban.Server.UnitTests.csproj", "{AB4D5992-2CC9-4E29-887F-37B70A212933}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E9DA5A0F-98B0-49CA-A95B-4956E334F34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9DA5A0F-98B0-49CA-A95B-4956E334F34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9DA5A0F-98B0-49CA-A95B-4956E334F34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4D5992-2CC9-4E29-887F-37B70A212933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4D5992-2CC9-4E29-887F-37B70A212933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4D5992-2CC9-4E29-887F-37B70A212933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4D5992-2CC9-4E29-887F-37B70A212933}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
